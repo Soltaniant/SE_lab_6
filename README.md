@@ -112,6 +112,16 @@ http {
 docker-compose up --build
 ```
 پس از آماده‌سازی کانتینترها، برنامه روی پورت 80 از `localhost` قابل دسترسی است.
+نتیجه اجرای دستور `docker container ls`:
+![image](https://github.com/user-attachments/assets/0386955b-5f87-4023-ba5b-c2b50219caff)
+
+نتیجه اجرای دستور `docker image ls`:
+![image](https://github.com/user-attachments/assets/a18ab230-7dc5-4cee-a3bd-554c79ef4f4f)
+
+نتیجه استفاده از برنامه:
+
+
+
 
 ---
 
