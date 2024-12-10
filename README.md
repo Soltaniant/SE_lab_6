@@ -112,6 +112,7 @@ http {
 docker-compose up --build
 ```
 پس از آماده‌سازی کانتینترها، برنامه روی پورت 80 از `localhost` قابل دسترسی است.
+برای کاهش فشار از روی سرور می‌توان در فایل nginx.conf از متدهای مختلف load balancing مانند least connections، IP Hash، Generic Hash، Least time و... استفاده کرد.
 نتیجه اجرای دستور `docker container ls`:
 
 
